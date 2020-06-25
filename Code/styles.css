@@ -340,20 +340,21 @@ footer > ul > li > a:hover {
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
   }
 
   header {
     justify-content: space-around;
   }
 
-  header > a {
+  .header-container > a {
     display: inline-block;
-    text-decoration: none;
   }
 
   header .logo-container {
     margin: 0;
     display: inline-block;
+    height: auto;
   }
 
   header .logo-container p {

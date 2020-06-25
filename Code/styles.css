@@ -12,7 +12,7 @@ body {
   font-family: "Montserrat";
 }
 
-header {
+.header-container {
   display: flex;
   height: 64px;
   width: 100vw;
@@ -20,7 +20,7 @@ header {
   align-items: center;
 }
 
-header > a {
+.header-container > a {
   display: none;
 }
 

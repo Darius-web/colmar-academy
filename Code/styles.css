@@ -21,6 +21,10 @@ header {
   align-items: center;
 }
 
+header > a {
+  display: none;
+}
+
 .container {
   width: 100vw;
 }
@@ -108,7 +112,7 @@ p > .bold {
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
-  width: 100%;
+  width: 200px;
   font-size: 1.1rem;
 }
 
@@ -331,6 +335,44 @@ footer > ul > li > a:hover {
 }
 
 @media (max-width: 780px) {
+  header {
+    justify-content: space-around;
+  }
+
+  header > a {
+    display: inline-block;
+  }
+
+  header .logo-container {
+    margin: 0;
+  }
+
+  header .logo-container p {
+    display: none;
+  }
+
+  header .main-nav ul {
+    display: none;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .intro .intro-text {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-text button {
+    margin-bottom: 32px;
+  }
+
   .left {
     display: none;
   }

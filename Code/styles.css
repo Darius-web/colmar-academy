@@ -10,7 +10,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
-  overflow-x: hidden;
 }
 
 header {
@@ -335,16 +334,26 @@ footer > ul > li > a:hover {
 }
 
 @media (max-width: 780px) {
+  .header-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   header {
     justify-content: space-around;
   }
 
   header > a {
     display: inline-block;
+    text-decoration: none;
   }
 
   header .logo-container {
     margin: 0;
+    display: inline-block;
   }
 
   header .logo-container p {
@@ -394,4 +403,7 @@ footer > ul > li > a:hover {
     height: auto;
     width: auto;
   }
+}
+
+@media (max-width: 400px) {
 }

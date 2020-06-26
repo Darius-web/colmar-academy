@@ -378,8 +378,8 @@ footer > ul > li > a:hover {
   }
 
   .intro .intro-text {
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .intro-text button {
